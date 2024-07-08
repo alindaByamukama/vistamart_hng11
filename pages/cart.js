@@ -1,9 +1,9 @@
 "use client";
 
 
-import Navbar from '../components/Navbar';
-import Cart from '../components/Cart';
-import Footer from '../components/Footer';
+import Navbar from '../src/components/Navbar';
+import Cart from '../src/components/Cart';
+import Footer from '../src/components/Footer';
 
 const CartPage = () => (
   <div>

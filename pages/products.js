@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar';
-import ProductCard from '../components/ProductCard';
-import Footer from '../components/Footer';
+import Navbar from '../src/components/Navbar';
+import ProductCard from '../src/components/ProductCard';
+import Footer from '../src/components/Footer';
 
 const Products = () => (
   <div>

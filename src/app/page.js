@@ -1,10 +1,10 @@
 "use client";
 
 import styled from 'styled-components';
-import Banner from '../../components/Banner';
-import ProductCard from '../../components/ProductCard';
-import Navbar from '../../components/Navbar';
-import Footer from '../../components/Footer';
+import Banner from '../components/Banner';
+import ProductCard from '../components/ProductCard';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Home = () => (
   <div>
@@ -28,8 +28,8 @@ const ProductList = styled.div`
 `;
 
 const products = [
-  { id: 1, name: 'Bamboo Lid', price: 100, image: '/images/bamboo-lid.jpg' },
-  { id: 2, name: 'Sport', price: 200, image: '/images/sport.jpg' },
+  { id: 1, name: 'Bamboo Lid', price: 100, image: 'bamboo-lid.png' },
+  { id: 2, name: 'Sport', price: 200, image: 'sport.png' },
   // Add more products as needed
 ];
 

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Navbar = () => (
   <Nav>
-    <Logo src="/images/logo.png" alt="Logo" />
+    <Logo src="/images/vistamart-logo.png" alt="Vistamart Logo" />
     <NavLinks>
       <Link href="/">Home</Link>
       <Link href="/products">Products</Link>
