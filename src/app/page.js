@@ -1,43 +1,10 @@
-"use client";
-
-import styled from 'styled-components';
-import Banner from '../components/Banner';
-import ProductCard from '../components/ProductCard';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-
-
 export const metadata = {
   title: "Timbu Cloud Shop",
-  description: "HNG 11 - Collaborative Proejct",
+  description: "HNG 11 - Collaborative Project",
 };
 
+import Home from './home';
 
-const Home = () => (
-  <div>
-    <Navbar />
-    <Banner />
-    <ProductList>
-      {/* Map through products and render ProductCard components */}
-      {products.map(product => (
-        <ProductCard key={product.id} product={product} />
-      ))}
-    </ProductList>
-    <Footer />
-  </div>
-);
-
-const ProductList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 2rem;
-`;
-
-const products = [
-  { id: 1, name: 'Bamboo Lid', price: 100, image: 'bamboo-lid.png' },
-  { id: 2, name: 'Sport', price: 200, image: 'sport.png' },
-  // Add more products as needed
-];
-
-export default Home;
+export default function Page() {
+  return <Home />;
+}
