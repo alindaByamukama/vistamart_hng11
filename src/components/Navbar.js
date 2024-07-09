@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Navbar = () => (
   <Nav>
-    <Logo src="``${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/vistamart-logo.png`" alt="Vistamart Logo" />
+    <Logo src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/vistamart-logo.png`} alt="Vistamart Logo" />
     <NavLinks>
       <Link href="/">Home</Link>
       <Link href="/products">Products</Link>
