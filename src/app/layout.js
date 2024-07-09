@@ -5,11 +5,6 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Timbu Cloud Shop",
-  description: "HNG 11 - Collaborative Proejct",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
