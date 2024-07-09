@@ -3,7 +3,7 @@ export const metadata = {
   description: "HNG 11 - Collaborative Project",
 };
 
-import Home from '../components/home';
+import Home from '../components/Home';
 
 export default function Page() {
   return <Home />;
