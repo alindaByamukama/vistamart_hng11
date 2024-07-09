@@ -1,12 +1,11 @@
 "use client";
 
-
 import styled from 'styled-components';
 import Link from 'next/link';
 
 const ProductCard = ({ product }) => (
   <Card>
-    <Image src={`/images/${product.image}`} alt={product.name} />
+    <Image src={``${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/${product.image}`} alt={product.name} />
     <Info>
       <Name>{product.name}</Name>
       <Price>${product.price}</Price>
