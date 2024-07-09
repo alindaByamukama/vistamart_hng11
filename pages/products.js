@@ -1,3 +1,4 @@
+import styled from 'styled-components';
 import Navbar from '../src/components/Navbar';
 import ProductCard from '../src/components/ProductCard';
 import Footer from '../src/components/Footer';
